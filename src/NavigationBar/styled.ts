@@ -25,7 +25,7 @@ export const NavigationHeader = styled(Layout.Header)`
 
 export const NavigationMenu = styled(Menu)<{ isActive: boolean }>`
   float: right;
-  display: ${({ isActive }) => (isActive ? "block" : "none")};
+  display: ${({ isActive }) => (isActive ? "table" : "none")};
   height: 100vh;
 `;
 
