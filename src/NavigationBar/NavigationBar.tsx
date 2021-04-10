@@ -30,7 +30,7 @@ const NavigationBar = () => {
                 defaultOpenKeys={['sub1']}
                 mode="inline"
                 theme="dark"
-                isActive={isCollapse}
+                isactive={isCollapse ? 1 : 0}
                 inlineCollapsed={isCollapse}
             >
                 <Menu.Item key="1" icon={<PieChartOutlined />}>
